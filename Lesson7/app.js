@@ -102,7 +102,7 @@ function collectStar(player,star){
     score = score + 1;
     scoretext.setText(score);
     star.kill();
-    star.reset(Math.floor(Math.random()*750));
+    star.reset(Math.floor(Math.random()*750),0);
 }
 
 function loseLife(player,enemy){
